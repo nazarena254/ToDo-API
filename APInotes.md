@@ -53,5 +53,4 @@ Create the URI endpoint to view the serialized data.
 
 Extra installed dependencies
 1. typing-extensions-  pip install typing-extensions
-2. django-rest-framework to enable us to build a restful api
-   pip install djangorestframework
+2. django-rest-framework to enable us to build a restful api-  pip install djangorestframework

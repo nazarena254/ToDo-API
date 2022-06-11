@@ -12,5 +12,7 @@ class Task(models.Model):
     # However, if you want to use objects as a field name it ok 
     objects = models.Manager()
 
+    #__str__ is a special method of python to determine what to print when
+    #  it needs to print out an instance of the Task model
     def __str__(self):
         return self.title

@@ -6,5 +6,6 @@ from .models import Task
 # a Serializer class with fields that correspond to the Model fields
 class TaskSerializer(serializers.ModelSerializer):
     class  Meta:
-        model: Task
-        fields='__all__'
+        model = Task
+        fields=('title','completed')
+        #  Or fields='__all__'
