@@ -35,7 +35,7 @@ Many frameworks allow you to easily build APIs for blog applications, but we wil
 
 Its Web-browsable API is a huge usability win for developers.
 Authentication policies include packages for OAuth1 and OAuth2.
-Great Serialization supports both ORM and non-ORM data sources.
+Great Serialization supports both ORM and non-ORM data sources, A serializer is a component that will convert Django models to JSON objects and vice-versa.
 It has extensive documentation and great community support.
 In a Django application, you define your structure of the database in the form of models using python. While you can write raw SQL queries, but for the most part, the Django ORM(Object Relation Mapper) handles all the hard and complicated database migrations and queries.
 
@@ -51,6 +51,7 @@ Set-Up Django Rest Framework
 Serialize the model data from step-3
 Create the URI endpoint to view the serialized data.
 
-
 Extra installed dependencies
 1. typing-extensions-  pip install typing-extensions
+2. django-rest-framework to enable us to build a restful api
+   pip install djangorestframework
