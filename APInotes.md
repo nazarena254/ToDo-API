@@ -50,3 +50,7 @@ Create a model for the database that the Django ORM will manage.
 Set-Up Django Rest Framework
 Serialize the model data from step-3
 Create the URI endpoint to view the serialized data.
+
+
+Extra installed dependencies
+1. typing-extensions-  pip install typing-extensions
